@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-poppins: var(--font-poppins);
 }
 
 @theme inline {
@@ -19,8 +20,24 @@
   }
 }
 
+@theme {
+  --color-black: #020202;
+  --color-primary: #be968e;
+  --color-text-dim:#8a8a8a;
+  --color-gray: #f5f5f5;
+  --color-gray-darker: #ececec;
+  --color-blue-50:#E8EDF2;
+}
+
+@layer utilities {
+  .text-stroke{
+    color: transparent;
+    -webkit-text-stroke: 1px #0000000D;
+  }
+}
+ 
 body {
-  background: var(--background);
+  background: #ffffff;
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins), sans-serif;
 }
