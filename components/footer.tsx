@@ -115,7 +115,7 @@ export default function Footer() {
                                 placeholder="Email address"
                                 className="placeholder:text-text-dim outline-0 text-black flex-1 min-w-0 px-2"
                             />
-                            <button className="font-semibold py-[12px] px-6 lg:px-[47px] bg-primary block rounded-[12px] whitespace-nowrap">
+                            <button className="font-semibold py-[12px] px-6 lg:px-[47px] bg-primary block rounded-[12px] whitespace-nowrap text-white">
                                 Send
                             </button>
                         </div>
