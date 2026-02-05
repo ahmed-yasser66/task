@@ -2,32 +2,32 @@ import Image from "next/image";
 import Container from "@/components/container";
 
 export default function Footer() {
-        const socialLinks = [
-            {
-                alt: "facebook",
-                img: "/icons/fb.svg",
-            },
-            {
-                alt: "twitter",
-                img: "/icons/twitter.svg",
-            },
-            {
-                alt: "instagram",
-                img: "/icons/instagram.svg",
-            },
-            {
-                alt: "linkedin",
-                img: "/icons/linkedin.svg",
-            },
-            {
-                alt: "whatsapp",
-                img: "/icons/whatsapp.svg",
-            },
-            {
-                alt: "telegram",
-                img: "/icons/telegram.svg",
-            },
-        ];
+    const socialLinks = [
+        {
+            alt: "facebook",
+            img: "/icons/fb.svg",
+        },
+        {
+            alt: "twitter",
+            img: "/icons/twitter.svg",
+        },
+        {
+            alt: "instagram",
+            img: "/icons/instagram.svg",
+        },
+        {
+            alt: "linkedin",
+            img: "/icons/linkedin.svg",
+        },
+        {
+            alt: "whatsapp",
+            img: "/icons/whatsapp.svg",
+        },
+        {
+            alt: "telegram",
+            img: "/icons/telegram.svg",
+        },
+    ];
     return (
         <footer className="mt-[242px] lg:mt-[154px] 2xl:h-[323px] max-2xl:pb-12 relative">
             <Container>
@@ -109,13 +109,13 @@ export default function Footer() {
                         <h3 className="text-white font-semibold text-base lg:text-2xl mb-6">
                             Send Email
                         </h3>
-                        <div className="p-2 bg-white flex rounded-[12px]">
+                        <div className="p-2 bg-white flex rounded-[12px] w-full">
                             <input
                                 type="text"
                                 placeholder="Email address"
-                                className="placeholder:text-text-dim outline-0 text-black flex-1"
+                                className="placeholder:text-text-dim outline-0 text-black flex-1 min-w-0 px-2"
                             />
-                            <button className="font-semibold py-[12px] px-[47px] bg-primary block rounded-[12px]">
+                            <button className="font-semibold py-[12px] px-6 lg:px-[47px] bg-primary block rounded-[12px] whitespace-nowrap">
                                 Send
                             </button>
                         </div>
