@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# task
 
-## Getting Started
+🚀 Getting Started
+Prerequisites
 
-First, run the development server:
+Make sure you have the following installed:
 
-```bash
+Node.js (v18 or later recommended)
+
+npm or yarn
+
+Installation
+
+Clone the repository and install dependencies:
+
+npm install
+
+
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application will be available at:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+🔐 Authentication Flow
 
-To learn more about Next.js, take a look at the following resources:
+Follow the steps below to test the authentication process.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1️⃣ Register
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Visit the registration page:
 
-## Deploy on Vercel
+http://localhost:3000/register
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Create a new account using the registration form.
+
+2️⃣ Verify Account
+
+After registering, you will be redirected to the verification page:
+
+http://localhost:3000/verify
+
+
+Enter the verification code:
+
+123456
+
+
+⚠️ Note: The verification code is hard-coded for demo purposes.
+
+3️⃣ Dashboard
+
+Once verification is successful, you will be redirected to:
+
+http://localhost:3000/dashboard
+
+
+On the dashboard, you can:
+
+View your name
+
+Log out of your account
+
+🛍 Product Details UI
+
+To view the product details user interface, go to:
+
+http://localhost:3000
+
+
+This page displays the frontend UI for product details.
+
+🛠 Tech Stack
+
+Next.js
+
+React
+
+TypeScript (if applicable)
+
+Tailwind CSS (if applicable)
